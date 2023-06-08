@@ -31,6 +31,10 @@ public class Main {
 				String menu = "";
 				int price;
 				do {
+					System.out.print("Insert Order menu: ");
+					menu = sc.nextLine();
+				}while(!(menu.endsWith("Coffee")));
+				do {
 					System.out.print("Insert Price[1000-100000]: ");
 					price = sc.nextInt();
 					sc.nextLine();

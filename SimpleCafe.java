@@ -57,7 +57,7 @@ public class Main {
 				int total = 0;
 				System.out.println("+===========================+");
 				System.out.printf("|  No  |  Drink  |  Price  |" );
-				System.out.println("\n+============================+");
+				System.out.println("\n+===========================+");
 				for(int i = 0; i < menu1.size(); i++) {
 					System.out.printf("%s %s %s %s %s %s %s", "|",(i+1),"|" ,menu1.get(i),"|", price1.get(i),"|");
 					System.out.println("\n+===========================+");
